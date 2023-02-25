@@ -1,7 +1,7 @@
 // based on: Blocking example by Mike McCauley (mikem@airspayce.com)
 // Shows how to use the blocking call runToNewPosition
 // Which sets a new target position and then waits until the stepper has 
-// achieved it.
+// achieved it. The stepper motor we are using takes 200 steps for one rotation.
 #include <AccelStepper.h>
 
 int DIR_PIN = 2;
